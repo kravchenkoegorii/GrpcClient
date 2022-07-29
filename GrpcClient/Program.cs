@@ -36,7 +36,6 @@ namespace GrpcClient
 
             await call.RequestStream.CompleteAsync();
             await readTask;
-
             Console.ReadKey();
         }
     }
